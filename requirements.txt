@@ -1,0 +1,5 @@
+numpy
+ipywebrtc
+ipywidgets
+pyaudio
+openai-whisper
