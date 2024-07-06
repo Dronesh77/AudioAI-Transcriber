@@ -53,17 +53,18 @@ This project demonstrates how to record audio, save it, and transcribe it using 
 ### Installation Steps
 
 #### 1.Clone the Repository:
-'''
+```
 git clone <repository_url>
 cd <repository_name>
 
 #### 2.Set Up Virtual Environment (Optional but Recommended):
-'''
+```
 python -m venv venv
 source venv/bin/activate   # On Windows, use `venv\Scripts\activate`
 
+
 #### 3.Install Dependencies:
-'''
+```
 pip install -r requirements.txt
 
 ## Running the Project
@@ -86,16 +87,16 @@ pip install -r requirements.txt
 ## Example Usage
 
 ### 1.Start Recording:
-'''
+```
 from my_project import start_recording, stop_and_save_recording
 recorder = start_recording()
 
 ### 2.Stop and Save Recording:
-'''
+```
 stop_and_save_recording(recorder)
 
 ### 3.Transcribe Audio:
-'''
+```
 transcription = transcribe_audio("path_to_recorded_audio.wav")
 print("Transcription:", transcription)
 
